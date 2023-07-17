@@ -1,8 +1,8 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
+  BoltIcon,
+  CubeIcon,
+  HandThumbUpIcon,
+  ShieldCheckIcon,
 } from "@heroicons/react/24/outline";
 import FeatureElement from "./FeatureElement";
 import HeaderForBlock from "../ui/header-for-block";
@@ -18,25 +18,25 @@ const features = [
     name: "Безопасность",
     description:
       "Наше приложение обеспечивает безопасность детей в сети, блокируя нежелательный контент, а так же контент 18+.",
-    icon: CloudArrowUpIcon,
+    icon: ShieldCheckIcon,
   },
   {
     name: "Простота",
     description:
       "Гибкие настройки обеспечивают полный контроль для родителей: настраивайте приложение под потребности своих детей",
-    icon: LockClosedIcon,
+    icon: CubeIcon,
   },
   {
     name: "Неуязвимость",
     description:
       "Постоянные обновления для расширения базы данных с новыми сайтами, содержащими нежелательный контент.",
-    icon: ArrowPathIcon,
+    icon: BoltIcon,
   },
   {
     name: "Уверенность",
     description:
       "Дает родителям и близким уверенность в безопасности их детей при использовании мобильных устройств.",
-    icon: FingerPrintIcon,
+    icon: HandThumbUpIcon,
   },
 ];
 

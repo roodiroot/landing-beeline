@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ navigation }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const scrollToElement = (element: RefObject<HTMLInputElement>) => {
-    element?.current?.scrollIntoView({ block: "start", behavior: "smooth" });
+    element?.current?.scrollIntoView({ block: "start" });
   };
 
   return (
