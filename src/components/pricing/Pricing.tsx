@@ -13,9 +13,9 @@ const Pricing: React.FC<PricingProps> = ({ element }) => {
       <div className="mx-auto max-w-4xl text-center">
         <HeaderForBlock
           x2
-          h2="Стоимость"
+          // h2="Стоимость"
           title="Тарифные планы и цены"
-          description="Отличие, и никто его не отпустил, и лейбористы тоже. Часто и как бы регулярно он хочет не получать от этого удовольствия. Я объясню это как труда."
+          // description="Отличие, и никто его не отпустил, и лейбористы тоже. Часто и как бы регулярно он хочет не получать от этого удовольствия. Я объясню это как труда."
         />
         <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <PricingCard

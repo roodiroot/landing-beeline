@@ -103,7 +103,7 @@ const Testimonials: React.FC<TestimonialProps> = ({ element }) => {
   return (
     <Container element={element}>
       <HeaderForBlock
-        h2="Отзывы"
+        // h2="Отзывы"
         title="Что уже о нас пишут родители"
         description="Мы&nbsp;делаем все возможное, чтобы удовлетворить каждого клиента,
   обеспечивая индивидуальный подход и&nbsp;высокое качество услуг."
@@ -112,10 +112,7 @@ const Testimonials: React.FC<TestimonialProps> = ({ element }) => {
         <figure className="col-span-2 hidden sm:block sm:rounded-2xl sm:bg-white sm:shadow-lg ring-1 ring-gray-900/5 xl:col-start-2 xl:row-end-1">
           <blockquote className="p-12 text-lg font-semibold leading-8 tracking-tight text-gray-900">
             <p>
-              “Создание этого приложения было захватывающим и творческим
-              процессом. Мы стремились создать удобный интерфейс и надежную
-              функциональность. Ваше мнение важно для нас, и мы готовы учесть
-              ваши пожелания. Спасибо за доверие”
+              “Вы&nbsp;сделали важный шаг к&nbsp;более безопасному миру вашего ребенка. С&nbsp;помощью нашего приложения ребенок сможет безопасно развиваться в&nbsp;Сети, а&nbsp;родители контролировать это не&nbsp;нарушая личное пространство.”
             </p>
           </blockquote>
           <figcaption className="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
